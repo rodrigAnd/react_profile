@@ -1,9 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Lista de habilidades foi mantida sem alterações
-
-// Componentes estilizados com alguns aprimoramentos
 const ProfileContainer = styled.div`
   padding: 30px;
   background-color: #ffffff;

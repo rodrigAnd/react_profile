@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const certifications = [
-  // ...dados de certificações
-];
-
 const CertificationContainer = styled.div`
   padding: 30px;
   background-color: #ffffff;

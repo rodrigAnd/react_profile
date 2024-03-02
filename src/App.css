@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: #0a66c2; /* LinkedIn blue */
+  color: #0a66c2;
 }
 
 h2 {
@@ -23,10 +23,9 @@ h2 {
 }
 
 .edu-list-item {
-  margin-bottom: 8px; /* add more styles as needed */
+  margin-bottom: 8px;
 }
 
-/* Responsive media queries */
 @media (max-width: 768px) {
   .App {
     padding: 10px;
@@ -36,7 +35,6 @@ h2 {
     font-size: 1.5em;
   }
   
-  /* Adjust other elements as necessary */
 }
 
 .container {

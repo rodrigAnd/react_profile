@@ -58,7 +58,6 @@ const InterestItem = ({ title, imageUrl, link }) => {
 };
 
 const InterestMeSection = () => {
-  // Defina a lista de interesses e seus links aqui
   const interests = [
     {
       imageUrl: "/olharDigital.png",
@@ -93,7 +92,7 @@ const InterestMeSection = () => {
         {interests.map((interest, index) => (
           <InterestItem
             key={index}
-            title={interest.title} // Incluí 'title' como uma propriedade válida para 'interest'
+            title={interest.title}
             imageUrl={interest.imageUrl}
             link={interest.link}
           />

@@ -10,7 +10,7 @@ Este projeto foi criado como parte da avaliação da disciplina de MOBILE WEB AP
 
 O projeto inclui as seguintes funcionalidades:
 
-- **Estilização:** Uso de CSS puro, CSS Modules ou styled-components para a estilização dos componentes.
+- **Estilização:** Styled-components para a estilização dos componentes.
 
 ## Tecnologias Utilizadas
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Supondo que você importou uma fonte do Google Fonts no seu index.html
 const StyledHeader = styled.header`
   background-color: #4a90e2;
   padding: 20px;
@@ -41,7 +40,6 @@ const Header = () => {
     <StyledHeader>
       <Logo src={'/family.jpeg'} alt="Logo" />
       <Title>Rodrigo Rodrigues dos Santos Guilherme</Title>
-      {/* Poderia adicionar aqui componentes de navegação ou outras ações */}
     </StyledHeader>
   );
 };

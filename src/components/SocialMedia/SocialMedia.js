@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
-// Styled componente para o footer
 const StyledFooter = styled.footer`
   background-color: #333; // Cor de fundo do footer para destaque
   color: #ffffff;
@@ -12,13 +11,11 @@ const StyledFooter = styled.footer`
   align-items: center;
 `;
 
-// Styled componente para os ícones das redes sociais
 const SocialMediaIcons = styled.div`
   display: flex;
   align-items: center;
 `;
 
-// Styled componente para os links dos ícones
 const IconLink = styled.a`
   color: #ffffff; // Cor dos ícones
   margin: 0 10px; // Espaçamento entre os ícones
@@ -33,16 +30,13 @@ const SocialMedia = () => {
   return (
     <StyledFooter>
       <SocialMediaIcons>
-        <IconLink href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <IconLink href="https://www.facebook.com/fernandapersan" target="_blank" rel="noopener noreferrer">
           <FaFacebookF />
         </IconLink>
-        <IconLink href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
-        </IconLink>
-        <IconLink href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+        <IconLink href="https://www.instagram.com/nandarodrigo_/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </IconLink>
-        <IconLink href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <IconLink href="https://www.linkedin.com/in/rodrigo-guilherme-002391131/" target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn />
         </IconLink>
       </SocialMediaIcons>
