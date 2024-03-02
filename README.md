@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Avaliação de React - Pós-graduação FIAP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o projeto desenvolvido para a disciplina de React do curso de Pós-graduação em  MBA MOBILE DEVELOPMENT APPS, IOT, CHATBOTS & VIRTUAL ASSISTANTS.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+Este projeto foi criado como parte da avaliação da disciplina de MOBILE WEB APPLICATIONS WITH REACT , com o objetivo de demonstrar as habilidades e conhecimentos adquiridos pelos alunos ao longo do curso. O aplicativo é uma representação simplificada de uma plataforma web, onde alguns conceitos do React são aplicados.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto inclui as seguintes funcionalidades:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Estilização:** Uso de CSS puro, CSS Modules ou styled-components para a estilização dos componentes.
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Styled-components / CSS Modules
 
-### `npm run build`
+## Instalação e Execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Certifique-se de ter o Node.js instalado em seu ambiente. Então, siga os passos abaixo para rodar o projeto localmente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
+```bash
+git clone https://github.com/rodrigAnd/react_profile.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Entre no diretório do projeto:
+```bash
+cd seu-repositorio
+```
 
-### `npm run eject`
+3. Instale as dependências:
+```bash
+npm install
+```
+ou
+```bash
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Execute o projeto:
+```bash
+npm start
+```
+ou
+```bash
+yarn start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O aplicativo agora estará rodando em `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Estrutura de Arquivos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Descreva aqui a estrutura de arquivos do seu projeto, indicando onde estão os componentes, serviços, páginas, entre outros.
 
-## Learn More
+- `src/components`: Componentes reutilizáveis em todo o projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
 
-### Code Splitting
+- Aluno: Rodrigo Rodrigues dos Santos Guilherme
+- RM: 348299
+- Turma: 2MOBR
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Licença
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [`LICENSE.md`](LICENSE.md) para detalhes.
