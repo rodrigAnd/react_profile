@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
+import ProfileSection from './components/ProfileSection/ProfileSection';
+import EducationSection from './components/EducationSection/EducationSection';
+import InterestMeSection from './components/InterestMeSection/InterestMeSection';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const educationList = ["Bacharelado em Sistemas de Informação - FIAP", "Curso de Inglês - Escola XYZ"];
+
+    return (
+        <div className="App">
+            <Header />
+            <main>
+                <ProfileSection title="Perfil Profissional" />
+                <EducationSection  />
+                <InterestMeSection />
+            </main>
+        </div>
+    );
+};
 
 export default App;

@@ -1,28 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f7;
+  color: #333;
+}
+
+h1 {
+  color: #0a66c2; /* LinkedIn blue */
+}
+
+h2 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
 .App {
-  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.edu-list-item {
+  margin-bottom: 8px; /* add more styles as needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Responsive media queries */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  /* Adjust other elements as necessary */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
