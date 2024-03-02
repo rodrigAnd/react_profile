@@ -9,7 +9,7 @@ Este projeto foi criado como parte da avaliação da disciplina de MOBILE WEB AP
 ## Funcionalidades
 
 O projeto inclui as seguintes funcionalidades:
-
+- **Pagina:** Pagina estática demonstrando perfil profissional.
 - **Estilização:** Styled-components para a estilização dos componentes.
 
 ## Tecnologias Utilizadas
