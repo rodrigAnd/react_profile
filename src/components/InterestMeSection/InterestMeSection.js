@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// Definindo componentes estilizados
 const InterestsContainer = styled.div`
   padding: 30px;
   background-color: #ffffff;
@@ -21,18 +20,25 @@ const InterestsList = styled.ul`
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); // Adjust the minmax for item width as needed
+  gap: 20px; // Adjust gap size as desired
 `;
 
 const InterestItemStyled = styled.li`
   margin-bottom: 15px;
   cursor: pointer;
+  text-align: center; // Center the content for each grid item
   &:hover {
     opacity: 0.7;
   }
   img {
-    width: 100px; // Adapte este valor conforme necessário
+    width: 100%; // Images will fill the item width
     height: auto;
+    display: block;
     margin-bottom: 10px;
+    margin-left: auto; // Center the image horizontally
+    margin-right: auto;
   }
   h3 {
     font-size: 18px;
@@ -40,6 +46,7 @@ const InterestItemStyled = styled.li`
     margin-top: 0;
   }
 `;
+
 
 const InterestItem = ({ title, imageUrl, link }) => {
   return (
@@ -54,15 +61,28 @@ const InterestMeSection = () => {
   // Defina a lista de interesses e seus links aqui
   const interests = [
     {
-      title: "Olhar Digital",
       imageUrl: "/olharDigital.png",
       link: "https://olhardigital.com.br/",
     },
     {
-      title: "Desenvolvimento Android",
       imageUrl: "/android.png",
       link: "https://developer.android.com/?hl=pt-br",
     },
+
+    {
+        imageUrl: "/ios.png",
+        link: "https://www.apple.com/",
+      },
+
+      {
+        imageUrl: "/aws.png",
+        link: "https://aws.amazon.com/pt/",
+      },
+
+      {
+        imageUrl: "/kotlin.png",
+        link: "https://kotlinlang.org/",
+      },
     
   ];
 

@@ -105,7 +105,7 @@ const EducationSection = () => {
     <CertificationContainer>
       <CertificationTitle>Certificações</CertificationTitle>
       <CertificationsList>
-        {certifications.map((cert, index) => (
+        {certification.map((cert, index) => (
           <CertificationItem
             key={index}
             onClick={() => window.open(cert.link, '_blank')}
